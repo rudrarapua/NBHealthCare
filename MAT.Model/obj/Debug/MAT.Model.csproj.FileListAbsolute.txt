@@ -1,0 +1,5 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\MembersandTechnology\MAT.Model\bin\Debug\MAT.Model.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\MembersandTechnology\MAT.Model\bin\Debug\MAT.Model.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\MembersandTechnology\MAT.Model\obj\Debug\MAT.Model.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\MembersandTechnology\MAT.Model\obj\Debug\MAT.Model.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\MembersandTechnology\MAT.Model\obj\Debug\MAT.Model.pdb

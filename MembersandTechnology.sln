@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembersandTechnology", "MembersandTechnology\MembersandTechnology.csproj", "{0355867E-FCF1-4C7C-9503-756735D96EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAT.Model", "MAT.Model\MAT.Model.csproj", "{B189A797-FC8E-44EE-8A6C-C6A00C67CB03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAT.Service", "MAT.Service\MAT.Service.csproj", "{EF2BCBE7-76AC-41C3-893D-3BA1B8957738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0355867E-FCF1-4C7C-9503-756735D96EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0355867E-FCF1-4C7C-9503-756735D96EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0355867E-FCF1-4C7C-9503-756735D96EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0355867E-FCF1-4C7C-9503-756735D96EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B189A797-FC8E-44EE-8A6C-C6A00C67CB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B189A797-FC8E-44EE-8A6C-C6A00C67CB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B189A797-FC8E-44EE-8A6C-C6A00C67CB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B189A797-FC8E-44EE-8A6C-C6A00C67CB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2BCBE7-76AC-41C3-893D-3BA1B8957738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2BCBE7-76AC-41C3-893D-3BA1B8957738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2BCBE7-76AC-41C3-893D-3BA1B8957738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2BCBE7-76AC-41C3-893D-3BA1B8957738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
