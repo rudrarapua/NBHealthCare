@@ -12,7 +12,7 @@ namespace MAT.Service.BusinessObjects
 {
     public class BizMembers
     {
-        public MembersList GetMembers(int Tid)
+        public MembersList GetMembers(int technologyid)
         {
             List<Members> mbsList = new List<Members>();
             MembersList mlst = new MembersList();
@@ -25,7 +25,7 @@ namespace MAT.Service.BusinessObjects
                 SqlParameter param1 = new SqlParameter();
                 param1.ParameterName = "TechnologyId";
                 param1.SqlDbType = SqlDbType.Int;
-                param1.Value = Tid.ToString();
+                param1.Value = technologyid.ToString();
                 cmd.Parameters.Add(param1);
 
                 //open connection

@@ -39,4 +39,14 @@ namespace MAT.Model.Models
 
         public int Yearsofexperiance { get; set; }
     }
+
+    public class Member
+    {
+        public int MemberId { get; set; }
+    }
+
+    public class Technology
+    {
+        public int TechnologyId { get; set; }
+    } 
 }

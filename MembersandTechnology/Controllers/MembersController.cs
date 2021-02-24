@@ -16,22 +16,22 @@ namespace MembersandTechnology.Controllers
         //string conString = ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString;
         BizMembers bz = new BizMembers();
 
-        [HttpGet]
+        [HttpPost]
         [ActionName("GetMembersByTechnologyId")]       
-        public MembersList GetMembersByTechId (int TechnologyId)
+        public MembersList GetMembersByTechId (Technology technology)
         {
             MembersList mlst = new MembersList();
-            mlst = bz.GetMembers(TechnologyId);
+            mlst = bz.GetMembers(technology.TechnologyId);
             return mlst;
         }
 
-        [HttpGet]
+        [HttpPost]
         [ActionName("GetMemberDetails")]
        
-        public MembersDetails GetMemberDetailsByID(int MemberID)
+        public MembersDetails GetMemberDetailsByID(Member member)
         {
             MembersDetails msd = new MembersDetails();
-            msd = bz.getMemberDetails(MemberID);
+            msd = bz.getMemberDetails(member.MemberId);
             return msd;
         }
     }
